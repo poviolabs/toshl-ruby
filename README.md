@@ -1,8 +1,7 @@
 toshl-ruby |License MIT|
 ==========================
 
-Installation
---------------------------------
+# Installation
 
 Add this line to your application's Gemfile:
 
@@ -18,8 +17,7 @@ Or install it yourself as:
 
     $ gem install toshl-ruby
 
-Usage
---------------------------------
+# Usage
 
 ```ruby
 # Configuration
@@ -28,8 +26,7 @@ Toshl.configure do |c|
 end
 ```
 
-Get All Entries
---------------------------------
+# Get All Entries
 
 ```ruby
 response = Toshl::Entry.list()
@@ -44,22 +41,19 @@ funky_export = Toshl::Entry.list("2017-09-01".to_date.."2017-09-30".to_date).
   join("\n")
 ```
 
-Get All Accounts
---------------------------------
+# Get All Accounts
 
 ```ruby
 response = Toshl::Account.list()
 ```
 
-Get All Categories
---------------------------------
+# Get All Categories
 
 ```ruby
 response = Toshl::Category.list()
 ```
 
-Development
---------------------------------
+# Development
 
 After checking out the repo, run `bundle install`. Use `bundle console` for an interactive prompt that will allow you to experiment.
 
