@@ -1,4 +1,4 @@
-toshl-ruby |License MIT|
+toshl-ruby
 ==========================
 
 # Installation
